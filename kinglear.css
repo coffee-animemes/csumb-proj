@@ -1,0 +1,112 @@
+/*loads in cursive font on the top of page*/
+@font-face {
+	font-family: Lucida Calligraphy
+	src: url(lcallig.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: Gill Sans MT
+	src: url(Gill Sans MT.ttf) format('truetype');
+}
+/*just setting up the padding and eventual size of container*/
+.container {
+	padding: 3%;
+	margin: 0 auto;
+	/*height: 100vh;
+	width: 100vw;*/
+}
+
+/*creates and establishes the positions of the blocks of the main divs */
+.dotted, .quote, .kinglear {
+	height: 10vh;
+}
+
+/*the first quote and the top of the page*/
+.dotted {
+	border-bottom-style: dashed;
+	border-right-style: dashed;
+	border-bottom-color: red;
+	border-right-color: red;
+	font-size: 35px;
+	font-family: Lucida Calligraphy, Helvetica, sans-serif;
+	width: 35vw;
+	height: 33vh;
+	padding-right: 1%;
+}
+/*2nd quote below dotted*/
+.quote {
+	margin-top: 1%;
+	font-family: Times New Roman, Times, serif;
+	font-size: 33px;
+	width: 55vw;
+	margin-left: 3%;
+}
+
+/*.quote, William Shakespeare, and the bolded sentence color*/
+.quote, .author, .ex1 {
+	color: blue;
+}
+/*set up the border style of the kinglear container and section*/
+.kinglear {
+	border-top: 3px solid red;
+	border-bottom: 12px solid red;
+	height: 60vh;
+}
+/*KING LEAR: white text in red box*/
+.leartitle {
+	color: white;
+	font-size: 36px;
+	background-color: red;
+	width: 25vw;
+	margin-left: 3%;
+}
+/*contains space in order to "indent" .leartitle */
+.titleouter {
+	margin: 0 auto;
+}
+/*matches with titleouter so it can be indented*/
+.author {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-style: italic;
+	margin-left: 3.5%;
+	font-size: 36px;
+	font-weight: 100;
+}
+/*container with border*/
+.quote2 {
+	font-size: 24px;
+	font-style: italic;
+	color: red;
+	border-left: 6px dotted red;
+	height: 15vh;
+	width: 25vw;
+	margin-top: 0;
+	margin-bottom: 1%;
+	margin-left: 6%;
+}
+/*the quotes on quote2*/
+.quotemarks {
+	font-size: 48px;
+	font-family: Gill Sans MT, Georgia, sans-serif;
+	color: black;
+	overflow-wrap: break-word;
+}
+
+.excerpt {
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 20vh;
+	width: 30vw;
+	padding-right: 5%;
+}
+
+/*last quote on the bottom of the page*/
+.ex1 {
+	font-size: 22px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.bold {
+	font-weight: bold;
+}

@@ -1,0 +1,74 @@
+/*div[class^="col-"] {
+	border: 3px solid navy; 
+}
+
+div[class^="row"] {
+	border: 3px solid red; 
+}
+*/
+.cats{
+
+}
+
+.cat1 {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg");
+	background-size: cover;
+	height: 25vh;
+}
+
+.cat2 {
+	background: url("https://cdn3-www.cattime.com/assets/uploads/gallery/maine-coon-cats-and-kittens/maine-coon-cats-and-kittens-5.jpg" );
+    background-size: cover;
+	height: 25vh;
+}
+
+.cat3 {
+	background: url("https://i.pinimg.com/originals/4c/d0/10/4cd010a3c1f0bc0d6be0e2c4781d3066.jpg");
+	background-size: cover;
+	height: 25vh;
+}
+
+.cat4 {
+	background: url("https://simonscat.com/wp-content/uploads/2016/10/aurora-1.png");
+	background-size: cover;
+	height: 25vh;
+}
+
+.cat5 {
+	background: url("http://mainecoonadoptions.com/wp-content/uploads/2016/01/banner-EB-king-of-bed-1200x401.jpg");
+	background-size: cover;
+	height: 30vh;
+}
+
+.cat6 {
+	background: url("https://1.bp.blogspot.com/-Y1yJD5E0iwE/UZD5evJGbYI/AAAAAAAAAKM/ambaowGQT_o/s1600/maine-coon-kitten.png");
+	background-size: cover;
+	height: 30vh;
+}
+
+.cat7 {
+	background: url("https://catsphd.com/wp-content/uploads/2017/08/Maine-Coon-Cat-Breed-Information.jpg");
+	background-size: cover;
+	height: 30vh;
+}
+
+.cat8 {
+	background: url("https://sassykoonz.com/wp-content/uploads/2018/03/maine-coon-kitten-for-sale-florida.jpg");
+	background-size: cover;
+	height: 30vh;
+}
+
+.cat9 {
+	background: url("http://www.maine-coon-cat-nation.com/images/is-stella-a-maine-coon-mix-21520399.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
+}
+
+.cat10 {
+	background: url("https://irp-cdn.multiscreensite.com/6630b9ff/dms3rep/multi/mobile/5a88ff2ba50a4381b21e71c21da18238-507x800.dm.edit_LrAmMW.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
+}
+

@@ -1,0 +1,78 @@
+body {
+	background-color: yellow;
+}
+
+.container {
+margin: 0 auto;
+width: 95%;
+max-width: 1200px;
+}
+/*start of header code*/
+#header {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.titleblock {
+	margin-top: 3%;
+	float: left;
+	width: 60%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 2.5em;
+	margin-bottom: 4%;
+}
+
+.left-bracket {
+	float: left;
+}
+
+.right-bracket {
+	float: right;
+}
+
+.left-bracket, .right-bracket {
+	width: 20%;
+	font-size: 10em;
+	color: red;
+}
+
+.author {
+	color: green;
+	font-size: 1.5em;
+	letter-spacing: 0.75em;
+}
+
+.blacktext {
+	color: black;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.bold, .boldline {
+	font-weight: bold;
+}
+
+.italics {
+	font-style: italic;
+}
+/*end of header code*/
+
+.text {
+	/*drop shadow of the div*/
+	border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+    background-color: white;
+    float: right;
+    margin-right: 20%;
+    margin-top: 3%;
+    width: 40%;
+    height: 60%;
+    border: hidden;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
